@@ -1,0 +1,95 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    margin: 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    background-color: gray;
+    border-radius: 50%;
+    color: wheat;
+    transition: all 0.3s ease;
+}
+
+.side-bar-toggle {
+    display: none;
+}
+
+.hero {
+    min-height: 100vh;
+   }
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-intro {
+    font-weight: 700;
+    color: #7b678d;
+}
+
+hr {
+    width: 20%;
+}
+
+.hero-name {
+    font-weight: 800;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.hero-job {
+    font-weight: 800;
+    color: #7b678d;
+}
+
+.hero-contact {
+    margin-top: 3em;
+}
+
+.hero-content i {
+    color: #ffffff;
+    background-color: #5cacee;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 1.5em;
+}
+
+.hero-image img{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
