@@ -16,6 +16,8 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    position: fixed;
+    top: 0;
 }
 
 .menu {
@@ -47,14 +49,12 @@ body {
     display: none;
 }
 
-.hero {
-    min-height: 100vh;
-   }
-
 .hero-container {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 2em;
 }
 
 .hero-intro {
@@ -89,7 +89,7 @@ hr {
 }
 
 .hero-image img{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
 }
