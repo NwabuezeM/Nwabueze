@@ -120,8 +120,34 @@ hr {
     color: #5cacee;
     font-size: 18px;
     border: none;
+    background-color: transparent;
 }
 .about-btn:hover {
     color: burlywood;
     transform: scale(1.2);
+}
+
+.services {
+    padding: 2em;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+ 
+.services a {
+    text-align: right;
+}
+
+.services i {
+    color: #5cacee;
+    font-size: 24pt;
+    margin-right: 8px;
+}
+
+.service {
+    text-align: center;
+    font-weight: 800
+    ;
 }
