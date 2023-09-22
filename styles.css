@@ -116,19 +116,44 @@ hr {
     font-size: 24pt;
 }
 
-.about-btn {
+.read-more-btn {
     color: #5cacee;
     font-size: 18px;
     border: none;
     background-color: transparent;
 }
-.about-btn:hover {
-    color: burlywood;
+
+.read-more-btn i {
+    margin-left: 8px;
+}
+
+.read-more-btn a:hover {
+    color: tomato;
     transform: scale(1.2);
 }
 
 .services {
     padding: 2em;
+}
+
+.services-intro .fa-arrow-right {
+    font-size: 5em;
+    text-align: right;
+}
+
+.services .fa-arrow-right:hover {
+    transform: scale(1.2);
+    color: tomato;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.services-intro {
+    margin-bottom: 2em;
+    border-bottom: 1px solid gray;
 }
 
 .services h1 {
@@ -150,4 +175,12 @@ hr {
     text-align: center;
     font-weight: 800
     ;
+}
+
+.first-service-row {
+    margin-bottom: 2em;
+}
+
+.services a {
+    text-decoration: none;
 }
