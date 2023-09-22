@@ -1,7 +1,8 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    font-size: 14pt;
+    font-size: 16pt;
+    transition: all 0.3s ease;
 }
 
 body {
@@ -16,9 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    position: fixed;
-    top: 0;
-}
+   }
 
 .menu {
     display: flex;
@@ -42,7 +41,6 @@ body {
     background-color: gray;
     border-radius: 50%;
     color: wheat;
-    transition: all 0.3s ease;
 }
 
 .side-bar-toggle {
@@ -92,4 +90,38 @@ hr {
     height: 500px;
     width: 500px;
     border-radius: 50%;
+}
+
+.about {
+    padding: 2em;
+}
+
+.about h3 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.about .intro {
+    font-size: 36px;
+    word-spacing: 0px;
+    font-weight: 800;
+} 
+
+.about .container {
+    margin-top: 3em;
+}
+
+.about .desc {
+    color: #7b678d;
+    font-size: 24pt;
+}
+
+.about-btn {
+    color: #5cacee;
+    font-size: 18px;
+    border: none;
+}
+.about-btn:hover {
+    color: burlywood;
+    transform: scale(1.2);
 }
