@@ -26,6 +26,16 @@ hr {
     color: #7b678d;
 }
 
+.hero a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero a:hover {
+    color: #5cacee;
+    text-decoration: underline;
+}
+
 .hero-contact {
     margin-top: 3em;
 }
