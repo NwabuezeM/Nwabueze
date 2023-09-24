@@ -1,51 +1,3 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    font-size: 16pt;
-    transition: all 0.3s ease;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: beige;
-}
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-   }
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu li {
-    list-style: none;
-    margin: 1rem;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    padding: 10px;
-}
-
-.menu li a:hover {
-    background-color: gray;
-    border-radius: 50%;
-    color: wheat;
-}
-
-.side-bar-toggle {
-    display: none;
-}
 
 .hero-container {
     min-height: 100vh;
@@ -86,10 +38,9 @@ hr {
     margin-right: 1.5em;
 }
 
-.hero-image img{
+.hero img{
     height: 500px;
     width: 500px;
-    border-radius: 50%;
 }
 
 .about {
@@ -137,7 +88,7 @@ hr {
 }
 
 .services-intro .fa-arrow-right {
-    font-size: 5em;
+    font-size: 3em;
     text-align: right;
 }
 
@@ -183,4 +134,20 @@ hr {
 
 .services a {
     text-decoration: none;
+}
+
+.portfolio h1 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 2em;
+}
+
+.portfolio img {
+    height: 400px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.portfolio .first-row {
+    margin-bottom: 1em;
 }
