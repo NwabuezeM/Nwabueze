@@ -17,6 +17,8 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    background-color: aliceblue;
+    border-bottom: 1px solid gray;
    }
 
 .menu {
@@ -45,5 +47,63 @@ body {
 
 .side-bar-toggle {
     display: none;
+}
+
+footer {
+    background-color: grey;
+    margin-top: 3em;
+    padding: 1.5em 0;
+}
+
+footer li {
+    list-style: none;
+    text-align: justify;
+}
+
+footer a {
+    text-decoration: none;
+    color: beige;
+}
+
+footer i {
+    margin-right: 0.7em;
+}
+
+footer a:hover {
+    color: tomato;
+}
+
+.fab.fa-facebook {
+    color: #1877F2;
+    position: relative;
+}
+
+.fab.fa-whatsapp {
+    color: #25D366;
+}
+
+.fab.fa-twitter {
+    color: #1DA1F2; 
+}
+
+.fab.fa-instagram {
+    color: #E4405F; }
+
+.fab.fa-github {
+    color: #181717;
+}
+
+.fab.fa-linkedin {
+    color: #0A66C2;
+}
+
+footer p {
+    color: beige;
+    text-align: right;
+    padding-right: 1em;
+}
+
+footer p:hover {
+    color: tomato;
 }
 
