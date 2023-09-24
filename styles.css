@@ -148,6 +148,68 @@ hr {
     border-radius: 5px;
 }
 
+.portfolio img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 8px #5a5353;
+}
+
 .portfolio .first-row {
     margin-bottom: 1em;
+}
+
+.contact {
+    margin-top: 2em;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #5cacee;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.contact li a {
+    color: #7b678d;
+    padding: 10px;
+}
+
+.contact li a:hover {
+    color: wheat;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 800;
+}
+
+.contact p:first-of-type {
+    text-align: justify;
+    font-size: 16pt;
+}
+
+.contact button {
+    color: aliceblue;
+    border: none;
+    background-color: darkgreen;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.contact a {
+    color: aliceblue;
+}
+
+.contact button:hover {
+    background-color: tomato;
+    transform: scale(1.2);
+    box-shadow: 0 5px 8px #5a5353;
 }
