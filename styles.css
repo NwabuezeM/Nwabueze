@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 2em;
 }
 
 .hero-intro {
@@ -55,8 +54,9 @@ hr {
 }
 
 .hero img{
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .about {
@@ -95,7 +95,7 @@ hr {
 }
 
 .read-more-btn a:hover {
-    color: tomato;
+    color: white;
     transform: scale(1.2);
 }
 
@@ -229,3 +229,182 @@ hr {
     transform: scale(1.2);
     box-shadow: 0 5px 8px #5a5353;
 }
+
+@media (max-width: 575.98px) {
+    .hero {
+      min-height: 50vh;
+    }
+  
+    .hero-container {
+      margin: 1em;
+    }
+  
+    .hero-intro {
+      font-size: 24px;
+    }
+  
+    hr {
+      width: 40%;
+    }
+  
+    .hero img {
+      height: 300px;
+      width: 300px;
+    }
+  
+    .about .intro {
+      font-size: 28px;
+    }
+  
+    .portfolio img {
+      height: 200px;
+    }
+  
+    .contact p {
+      font-size: 16pt;
+    }
+  }
+  
+  /* Small devices (phones) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .hero {
+      min-height: 60vh;
+    }
+  
+    .hero-container {
+      margin: 1.5em;
+    }
+  
+    .hero-intro {
+      font-size: 28px;
+    }
+  
+    hr {
+      width: 30%;
+    }
+  
+    .hero img {
+      height: 400px;
+      width: 400px;
+    }
+  
+    .about .intro {
+      font-size: 32px;
+    }
+  
+    .portfolio img {
+      height: 250px;
+    }
+  
+    .contact p {
+      font-size: 18pt;
+    }
+  }
+  
+  /* Medium devices (tablets) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .hero {
+      min-height: 70vh;
+    }
+  
+    .hero-container {
+      margin: 2em;
+    }
+  
+    .hero-intro {
+      font-size: 32px;
+    }
+  
+    hr {
+      width: 25%;
+    }
+  
+    .hero img {
+      height: 450px;
+      width: 450px;
+    }
+  
+    .about .intro {
+      font-size: 36px;
+    }
+  
+    .portfolio img {
+      height: 300px;
+    }
+  
+    .contact p {
+      font-size: 20pt;
+    }
+  }
+  
+  /* Large devices (desktops) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero {
+      min-height: 80vh;
+    }
+  
+    .hero-container {
+      margin: 2.5em;
+    }
+  
+    .hero-intro {
+      font-size: 36px;
+    }
+  
+    hr {
+      width: 20%;
+    }
+  
+    .hero img {
+      height: 500px;
+      width: 500px;
+    }
+  
+    .about .intro {
+      font-size: 40px;
+    }
+  
+    .portfolio img {
+      height: 350px;
+    }
+  
+    .contact p {
+      font-size: 22pt;
+    }
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media (min-width: 1200px) {
+    .hero {
+      min-height: 90vh;
+    }
+  
+    .hero-container {
+      margin: 3em;
+    }
+  
+    .hero-intro {
+      font-size: 40px;
+    }
+  
+    hr {
+      width: 15%;
+    }
+  
+    .hero img {
+      height: 600px;
+      width: 600px;
+    }
+  
+    .about .intro {
+      font-size: 44px;
+    }
+  
+    .portfolio img {
+      height: 400px;
+    }
+  
+    .contact p {
+      font-size: 24pt;
+    }
+  }
