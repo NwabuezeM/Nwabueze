@@ -1,6 +1,6 @@
 const currentYear = document.getElementById('currentYear');
 const hamburger = document.querySelector('.fa-bars');
-const sidebar = document.querySelector('.nav-bar');
+const sidebar = document.querySelector('.sidebar');
 const removeSidebar = document.querySelector('.fa-times');
 
 hamburger.addEventListener('click', () => {
